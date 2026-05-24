@@ -1,6 +1,5 @@
 """Tests for BitVec iteration and container protocol."""
-import pytest
-from bitvec import BitVec, BitVecError
+from bitvec import BitVec
 
 
 class TestLen:

@@ -1,6 +1,5 @@
 """BitVec: compact bit vector implementation."""
 from typing import Iterable, Iterator, overload, Union, List
-from bitvec.errors import BitVecError
 
 
 class BitVec:
