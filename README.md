@@ -4,14 +4,17 @@ Compact bit vector with set operations, slicing, and efficient storage for Pytho
 
 ## Installation
 
-From source:
+From a repository checkout:
+
 ```bash
-pip install -e /tmp/bitvec
+python -m pip install -e .
 ```
 
-Or from PyPI (once published):
+For local development:
+
 ```bash
-pip install bitvec
+python -m pip install -e ".[dev]"
+pytest
 ```
 
 ## Quick Start
